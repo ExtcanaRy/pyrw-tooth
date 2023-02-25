@@ -1,0 +1,55 @@
+{
+    "format_version": 1,
+    "tooth": "github.com/WillowSauceR/pyrw-tooth",
+    "version": "1.0.0",
+    "dependencies": {
+        "github.com/Tooth-Hub/LiteLoaderBDS": [
+            [
+                "2.10.x"
+            ]
+        ]
+    },
+    "information": {
+        "name": "BDSpyrunnerW",
+        "description": "Lightweight & Stable Python plugin platform for Minecraft Bedrock Dedicated Server",
+        "author": "",
+        "license": "GPL-3.0",
+        "homepage": "https://pyr.jfishing.love",
+        "repository": "github.com/WillowSauceR/BDSpyrunnerW"
+    },
+    "placement": [
+        {
+            "source": "BDSpyrunnerW.dll",
+            "destination": "plugins/BDSpyrunnerW.dll"
+        },
+        {
+            "source": "mc.py",
+            "destination": "plugins/py/mc.py"
+        },
+        {
+            "source": "get-pip.py",
+            "destination": "plugins/py/env/get-pip.py"
+        },
+        {
+            "source": "install.bat",
+            "destination": "plugins/py/env/install.bat"
+        },
+        {
+            "source": "python37._pth",
+            "destination": "python37._pth"
+        }
+    ],
+    "commands": [
+        {
+            "type": "install",
+            "commands": [
+                ".\\plugins\\py\\env\\install.bat"
+            ],
+            "GOOS": "windows",
+            "GOARCH": "amd64"
+        }
+    ],
+    "possession": [
+        "plugins/py/"
+    ]
+}
