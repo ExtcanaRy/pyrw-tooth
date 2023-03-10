@@ -29,6 +29,10 @@
             "destination": "plugins/py/env/install.bat"
         },
         {
+            "source": "7zr.exe",
+            "destination": "plugins/py/env/7zr.exe"
+        },
+        {
             "source": "python37._pth",
             "destination": "python37._pth"
         }
