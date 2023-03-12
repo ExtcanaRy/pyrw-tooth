@@ -1,7 +1,7 @@
 {
     "format_version": 1,
     "tooth": "github.com/WillowSauceR/pyrw-tooth",
-    "version": "1.9.5",
+    "version": "1.9.6",
     "dependencies": {},
     "information": {
         "name": "BDSpyrunnerW",
@@ -29,8 +29,12 @@
             "destination": "plugins/py/env/install.bat"
         },
         {
-            "source": "7zr.exe",
-            "destination": "plugins/py/env/7zr.exe"
+            "source": "7za.exe",
+            "destination": "plugins/py/env/7za.exe"
+        },
+        {
+            "source": "7za.dll",
+            "destination": "plugins/py/env/7za.dll"
         },
         {
             "source": "python37._pth",
